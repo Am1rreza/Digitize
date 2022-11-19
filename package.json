@@ -11,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "homepage": "https://nimble-meringue-fec189.netlify.app/"
 }
