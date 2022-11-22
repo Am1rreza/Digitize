@@ -46,105 +46,111 @@
       </div>
     </div>
     <!-- Product section -->
-    <div class="px-5 grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <div class="bg-primaryColor rounded-lg p-2 shadow-md">
-        <div
-          class="rounded-lg mb-3 bg-[#e2e2e2] flex justify-center items-center p-2"
-        >
-          <img src="assets/images/watch2 png.png" alt="watch-img" />
-        </div>
-        <!-- Product desc. -->
-        <div class="flex items-center justify-between w-full mb-3">
-          <span class="text-slate-500 text-sm md:text-base">اپل</span>
-          <div x-data="{ color : 'red' }" class="flex items-center">
-            <div
-              @click="color = 'red'"
-              class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-red-400 border-white bg-red-400 -ml-1.5"
-            >
-              <svg
-                x-show="color === 'red'"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+    <div
+      x-data="{
+      products : [
+        {id:1 , title : 'اپل واچ سری 7', price : '12,250,000 تومان'},
+        {id:2 , title : 'اپل واچ سری 6', price : '10,500,000 تومان'},
+        {id:3 , title : 'اپل واچ سری 5', price : '8,750,000 تومان'},
+        {id:4 , title : 'اپل واچ سری 4', price : '6,000,000 تومان'},
+        {id:5 , title : 'اپل واچ سری 3', price : '4,250,000 تومان'},
+        {id:6 , title : 'اپل واچ سری 2', price : '3,500,000 تومان'},
+      ]
+    }"
+      class="px-5 mb-8 grid gap-x-2 gap-y-8 sm:gap-x-4 md:gap-x-8 md:gap-y-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+    >
+      <!-- Single product -->
+      <template x-for="product in products" :key="product.id">
+        <div class="bg-primaryColor rounded-lg p-2 shadow-md">
+          <div
+            class="rounded-lg mb-3 bg-[#e2e2e2] flex justify-center items-center p-2"
+          >
+            <img src="assets/images/watch2 png.png" alt="watch-img" />
+          </div>
+          <!-- Product desc. -->
+          <div class="flex items-center justify-between w-full mb-3">
+            <span class="text-slate-500 text-sm md:text-base">اپل</span>
+            <div x-data="{ color : 'red' }" class="flex items-center">
+              <div
+                @click="color = 'red'"
+                class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-red-400 border-white bg-red-400 -ml-1.5"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
-              </svg>
-            </div>
-            <div
-              @click="color = 'blue'"
-              class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-blue-400 border-white bg-blue-400 -ml-1.5"
-            >
-              <svg
-                x-show="color === 'blue'"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+                <svg
+                  x-show="color === 'red'"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div
+                @click="color = 'blue'"
+                class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-blue-400 border-white bg-blue-400 -ml-1.5"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
-              </svg>
-            </div>
-            <div
-              @click="color = 'green'"
-              class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-green-400 border-white bg-green-400"
-            >
-              <svg
-                x-show="color === 'green'"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+                <svg
+                  x-show="color === 'blue'"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div
+                @click="color = 'green'"
+                class="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-green-400 border-white bg-green-400"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
-              </svg>
+                <svg
+                  x-show="color === 'green'"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-3.5 h-3.5 sm:h-4 sm-w-4 md:w-5 md:h-5 stroke-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
+          <!-- Product title -->
+          <div
+            x-text="product.title"
+            class="text-slate-800 text-sm md:text-base font-semibold mb-2"
+          ></div>
+          <div
+            x-text="product.price"
+            class="text-orange-600 font-semibold text-center text-sm md:text-base mb-3"
+          ></div>
+          <hr class="" />
+          <!-- Product btn -->
+          <button
+            class="w-full text-sm md:text-lg pt-2 pb-1 font-bold text-orange-600"
+          >
+            مشاهده و سفارش
+          </button>
         </div>
-        <!-- Product title -->
-        <div class="text-slate-800 text-sm md:text-base font-semibold mb-2">
-          اپل واچ سری 7
-        </div>
-        <div
-          class="text-orange-600 font-semibold text-center text-sm md:text-base mb-3"
-        >
-          12,250,000 تومان
-        </div>
-        <hr class="" />
-        <!-- Product btn -->
-        <button
-          class="w-full text-sm md:text-lg pt-2 pb-1 font-bold text-orange-600"
-        >
-          مشاهده و سفارش
-        </button>
-      </div>
-      <div class="bg-primaryColor rounded-lg">2</div>
-      <div class="bg-primaryColor rounded-lg">3</div>
-      <div class="bg-primaryColor rounded-lg">4</div>
-      <div class="bg-primaryColor rounded-lg">5</div>
-      <div class="bg-primaryColor rounded-lg">6</div>
-      <div class="bg-primaryColor rounded-lg">7</div>
-      <div class="bg-primaryColor rounded-lg">8</div>
-      <div class="bg-primaryColor rounded-lg">9</div>
-      <div class="bg-primaryColor rounded-lg">10</div>
+      </template>
     </div>
 
     <script src="//unpkg.com/alpinejs" defer></script>
