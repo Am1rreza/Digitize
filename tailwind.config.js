@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ["iranyekan"],
       },
+      colors: {
+        primaryColor: "#fdfdfd",
+      },
     },
   },
   plugins: [],

@@ -23,12 +23,11 @@ This set of fonts are used in this project under the license: (.....)
   src: url("/assets/fonts/eot/iranyekanwebbold.eot");
   src: url("/assets/fonts/eot/iranyekanwebbold.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebbold.woff")
-      format("woff"),
+    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebbold.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
       url("/assets/fonts/woff2/iranyekanwebbold.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/
-      url("/assets/fonts/ttf/iranyekanwebbold.ttf") format("truetype");
+    /* FF39+,Chrome36+, Opera24+*/ url("/assets/fonts/ttf/iranyekanwebbold.ttf")
+      format("truetype");
 }
 
 @font-face {
@@ -38,12 +37,11 @@ This set of fonts are used in this project under the license: (.....)
   src: url("/assets/fonts/eot/iranyekanwebthin.eot");
   src: url("/assets/fonts/eot/iranyekanwebthin.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebthin.woff")
-      format("woff"),
+    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebthin.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
       url("/assets/fonts/woff2/iranyekanwebthin.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/
-      url("/assets/fonts/ttf/iranyekanwebthin.ttf") format("truetype");
+    /* FF39+,Chrome36+, Opera24+*/ url("/assets/fonts/ttf/iranyekanwebthin.ttf")
+      format("truetype");
 }
 
 @font-face {
@@ -53,8 +51,7 @@ This set of fonts are used in this project under the license: (.....)
   src: url("/assets/fonts/eot/iranyekanweblight.eot");
   src: url("/assets/fonts/eot/iranyekanweblight.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/assets/fonts/woff/iranyekanweblight.woff")
-      format("woff"),
+    /* IE6-8 */ url("/assets/fonts/woff/iranyekanweblight.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
       url("/assets/fonts/woff2/iranyekanweblight.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
@@ -83,8 +80,7 @@ This set of fonts are used in this project under the license: (.....)
   src: url("/assets/fonts/eot/iranyekanwebmedium.eot");
   src: url("/assets/fonts/eot/iranyekanwebmedium.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebmedium.woff")
-      format("woff"),
+    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebmedium.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
       url("/assets/fonts/woff2/iranyekanwebmedium.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
@@ -101,8 +97,7 @@ This set of fonts are used in this project under the license: (.....)
     /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebextrabold.woff")
       format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-      url("/assets/fonts/woff2/iranyekanwebextrabold.woff2")
-      format("woff2"),
+      url("/assets/fonts/woff2/iranyekanwebextrabold.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
       url("/assets/fonts/ttf/iranyekanwebextrabold.ttf") format("truetype");
 }
@@ -114,8 +109,7 @@ This set of fonts are used in this project under the license: (.....)
   src: url("/assets/fonts/eot/iranyekanwebblack.eot");
   src: url("/assets/fonts/eot/iranyekanwebblack.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebblack.woff")
-      format("woff"),
+    /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebblack.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
       url("/assets/fonts/woff2/iranyekanwebblack.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
@@ -132,9 +126,7 @@ This set of fonts are used in this project under the license: (.....)
     /* IE6-8 */ url("/assets/fonts/woff/iranyekanwebextrablack.woff")
       format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-      url("/assets/fonts/woff2/iranyekanwebextrablack.woff2")
-      format("woff2"),
+      url("/assets/fonts/woff2/iranyekanwebextrablack.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
-      url("/assets/fonts/ttf/iranyekanwebextrablack.ttf")
-      format("truetype");
+      url("/assets/fonts/ttf/iranyekanwebextrablack.ttf") format("truetype");
 }
