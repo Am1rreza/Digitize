@@ -49,10 +49,139 @@
       class="grid md:px-5 md:gap-8 grid-cols-12 md:grid-rows-[55px_minmax(700px,_1fr)]"
     >
       <!-- Sidebar -->
-      <div
-        class="bg-primaryColor hidden md:block p-4 col-span-4 lg:col-span-3 row-span-2"
-      >
-        sidebar
+      <div class="hidden md:block col-span-4 lg:col-span-3 row-span-2">
+        <div class="bg-primaryColor p-6 rounded-lg">
+          <!-- Categories -->
+          <div>
+            <h2 class="text-orange-500 mb-5 font-bold text-xl">دسته‌بندی</h2>
+            <div>
+              <div
+                class="cursor-pointer flex items-center mb-2 p-2 hover:bg-gray-100 rounded-md"
+              >
+                <div>
+                  <img
+                    class="w-5 ml-2"
+                    src="assets/images/phone.png"
+                    alt="phone-icon"
+                  />
+                </div>
+                <span class="text-slate-800">تلفن همراه</span>
+              </div>
+
+              <div
+                class="cursor-pointer flex items-center mb-2 p-2 hover:bg-gray-100 rounded-md"
+              >
+                <div>
+                  <img
+                    class="w-5 ml-2"
+                    src="assets/images/laptop.png"
+                    alt="phone-icon"
+                  />
+                </div>
+                <span class="text-slate-800">لپ تاپ</span>
+              </div>
+
+              <div
+                class="cursor-pointer flex items-center mb-4 p-2 hover:bg-gray-100 rounded-md"
+              >
+                <div>
+                  <img
+                    class="w-5 ml-2"
+                    src="assets/images/watch icon.png"
+                    alt="phone-icon"
+                  />
+                </div>
+                <span class="text-slate-800">ساعت هوشمند</span>
+              </div>
+            </div>
+          </div>
+
+          <hr class="mb-4" />
+
+          <!-- Desktop filters -->
+          <div>
+            <h2 class="text-orange-500 mb-5 font-bold text-xl">فیلتر</h2>
+            <!-- ACC NO.1 -->
+            <div class="">
+              <!-- ACC #1 header -->
+              <div
+                class="flex items-center justify-between cursor-pointer p-2 rounded-md hover:bg-gray-100"
+              >
+                <div class="flex items-center">
+                  <div class="flex items-center">
+                    <div>
+                      <img
+                        class="w-5 ml-2"
+                        src="assets/images/home.png"
+                        alt="phone-icon"
+                      />
+                    </div>
+                    <span class="text-slate-800">برند محصول</span>
+                  </div>
+                </div>
+                <div class="text-slate-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- ACC #1 content -->
+              <div class="p-2">
+                <label
+                  for="apple"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer"
+                    type="checkbox"
+                    name="brand"
+                    id="apple"
+                  />
+                  اپل
+                </label>
+                <label
+                  for="huawei"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer"
+                    type="checkbox"
+                    name="brand"
+                    id="huawei"
+                  />
+                  هواوی
+                </label>
+                <label
+                  for="samsung"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer"
+                    type="checkbox"
+                    name="brand"
+                    id="samsung"
+                  />
+                  سامسونگ
+                </label>
+              </div>
+            </div>
+            <!-- ACC NO.2 -->
+            <div class=""></div>
+            <!-- ACC NO.3 -->
+            <div class=""></div>
+          </div>
+        </div>
       </div>
       <!-- Sort section -->
       <div class="hidden md:block col-span-8 lg:col-span-9">
