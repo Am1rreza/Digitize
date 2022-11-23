@@ -46,7 +46,7 @@
       </div>
     </div>
     <div
-      class="grid px-5 md:gap-8 grid-cols-12 md:grid-rows-[55px_minmax(700px,_1fr)]"
+      class="grid md:px-5 md:gap-8 grid-cols-12 md:grid-rows-[55px_minmax(700px,_1fr)]"
     >
       <!-- Sidebar -->
       <div
@@ -55,8 +55,59 @@
         sidebar
       </div>
       <!-- Sort section -->
-      <div class="bg-primaryColor hidden md:block p-4 col-span-8 lg:col-span-9">
-        sort section
+      <div class="hidden md:block col-span-8 lg:col-span-9">
+        <div
+          x-data="{activeNO : 1}"
+          class="bg-primaryColor px-4 gap-x-4 flex items-center rounded-md text-gray-400"
+        >
+          <div>
+            <img class="w-9" src="assets/images/sort png.png" alt="sort-icon" />
+          </div>
+          <button
+            @click="activeNO = 1"
+            :class="activeNO === 1 ? 'text-slate-800 font-semibold' : '' "
+            class="py-4 relative"
+          >
+            <div
+              x-show="activeNO === 1"
+              class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute -left-1 top-2"
+            ></div>
+            محبوب‌ترین
+          </button>
+          <button
+            @click="activeNO = 2"
+            :class="activeNO === 2 ? 'text-slate-800 font-semibold' : '' "
+            class="py-4 relative"
+          >
+            <div
+              x-show="activeNO === 2"
+              class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute -left-1 top-2"
+            ></div>
+            پربازدیدترین
+          </button>
+          <button
+            @click="activeNO = 3"
+            :class="activeNO === 3 ? 'text-slate-800 font-semibold' : '' "
+            class="py-4 relative"
+          >
+            <div
+              x-show="activeNO === 3"
+              class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute -left-1 top-2"
+            ></div>
+            گران‌ترین
+          </button>
+          <button
+            @click="activeNO = 4"
+            :class="activeNO === 4 ? 'text-slate-800 font-semibold' : '' "
+            class="py-4 relative"
+          >
+            <div
+              x-show="activeNO === 4"
+              class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute -left-1 top-2"
+            ></div>
+            ارزان‌ترین
+          </button>
+        </div>
       </div>
       <!-- Products -->
       <div class="col-span-12 md:col-span-8 lg:col-span-9">
