@@ -255,6 +255,107 @@
                 </label>
               </div>
             </div>
+            <!-- ACC NO.3 -->
+            <div x-data="{isActivePrice : false}">
+              <!-- ACC #3 header -->
+              <div
+                @click="isActivePrice = !isActivePrice"
+                class="flex items-center justify-between cursor-pointer p-2 rounded-md hover:bg-gray-100"
+              >
+                <div class="flex items-center">
+                  <div class="flex items-center">
+                    <div>
+                      <img
+                        class="w-5 ml-2"
+                        src="assets/images/price.png"
+                        alt="price-icon"
+                      />
+                    </div>
+                    <span class="text-slate-800">قیمت محصول</span>
+                  </div>
+                </div>
+                <div class="text-slate-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 transition-all duration-200"
+                    :class="isActivePrice ? 'rotate-180' : '' "
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- ACC #3 content -->
+              <div x-show="isActivePrice" class="p-2">
+                <label
+                  for="1-2"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer form-checkbox text-orange-500 rounded focus:ring-0 focus:ring-offset-0"
+                    type="checkbox"
+                    name="price"
+                    id="1-2"
+                  />
+                  1 تا 2 میلیون تومان
+                </label>
+                <label
+                  for="2-3"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer form-checkbox text-orange-500 rounded focus:ring-0 focus:ring-offset-0"
+                    type="checkbox"
+                    name="price"
+                    id="2-3"
+                  />
+                  2 تا 3 میلیون تومان
+                </label>
+                <label
+                  for="3-4"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer form-checkbox text-orange-500 rounded focus:ring-0 focus:ring-offset-0"
+                    type="checkbox"
+                    name="price"
+                    id="3-4"
+                  />
+                  3 تا 4 میلیون تومان
+                </label>
+                <label
+                  for="4-5"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer form-checkbox text-orange-500 rounded focus:ring-0 focus:ring-offset-0"
+                    type="checkbox"
+                    name="price"
+                    id="4-5"
+                  />
+                  4 تا 5 میلیون تومان
+                </label>
+                <label
+                  for="5-6"
+                  class="py-1 cursor-pointer flex gap-x-2 items-center"
+                >
+                  <input
+                    class="cursor-pointer form-checkbox text-orange-500 rounded focus:ring-0 focus:ring-offset-0"
+                    type="checkbox"
+                    name="price"
+                    id="5-6"
+                  />
+                  5 تا 6 میلیون تومان
+                </label>
+              </div>
+            </div>
           </div>
         </div>
       </div>
