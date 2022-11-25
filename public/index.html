@@ -9,7 +9,9 @@
   </head>
   <body class="bg-stone-100">
     <!-- App bar -->
-    <div class="flex container mx-auto 2xl:max-w-screen-2xl md:hidden justify-between items-center mt-10 px-5 mb-6">
+    <div
+      class="flex container mx-auto 2xl:max-w-screen-2xl md:hidden justify-between items-center mt-10 px-5 mb-6"
+    >
       <img class="w-12" src="assets/images/logo png.png" alt="logo" />
       <div class="text-lg font-bold text-slate-800">ساعت هوشمند</div>
       <div
@@ -23,7 +25,9 @@
       </div>
     </div>
     <!-- Filter & Sort section -->
-    <div class="flex container mx-auto 2xl:max-w-screen-2xl md:hidden items-center justify-between mb-9 px-5 gap-x-2">
+    <div
+      class="flex container mx-auto 2xl:max-w-screen-2xl md:hidden items-center justify-between mb-9 px-5 gap-x-2"
+    >
       <div
         class="flex items-center justify-center bg-primaryColor rounded-md p-2 w-full"
       >
@@ -49,7 +53,9 @@
     <nav
       class="w-full bg-primaryColor px-11 py-2 shadow-lg mb-8 sticky top-0 z-50 hidden md:block"
     >
-      <div class="container px-5 mx-auto 2xl:max-w-screen-2xl flex items-center justify-between gap-x-4">
+      <div
+        class="container px-5 mx-auto 2xl:max-w-screen-2xl flex items-center justify-between gap-x-4"
+      >
         <div class="flex items-center gap-x-2 lg:gap-x-4">
           <div class="cursor-pointer">
             <img
@@ -58,7 +64,9 @@
               alt="digitize-logo"
             />
           </div>
-          <ul class="flex items-center text-sm lg:text-base gap-x-1 lg:gap-x-4 text-slate-800 font-extrabold">
+          <ul
+            class="flex items-center text-sm lg:text-base gap-x-1 lg:gap-x-4 text-slate-800 font-extrabold"
+          >
             <li
               class="cursor-pointer p-3 rounded-md hover:bg-gray-100 transition-all duration-100"
             >
@@ -105,7 +113,9 @@
       class="container mx-auto 2xl:max-w-screen-2xl grid md:px-5 md:gap-8 grid-cols-12 md:grid-rows-[55px_minmax(700px,_1fr)]"
     >
       <!-- Sidebar -->
-      <div class="hidden md:block col-span-4 lg:col-span-3 xl:col-span-2 row-span-2">
+      <div
+        class="hidden md:block col-span-4 lg:col-span-3 xl:col-span-2 row-span-2"
+      >
         <div class="bg-primaryColor p-6 rounded-lg">
           <!-- Categories -->
           <div>
@@ -360,7 +370,7 @@
                     name="price"
                     id="1-2"
                   />
-                  1 تا 2 میلیون 
+                  1 تا 2 میلیون
                 </label>
                 <label
                   for="2-3"
@@ -372,7 +382,7 @@
                     name="price"
                     id="2-3"
                   />
-                  2 تا 3 میلیون 
+                  2 تا 3 میلیون
                 </label>
                 <label
                   for="3-4"
@@ -384,7 +394,7 @@
                     name="price"
                     id="3-4"
                   />
-                  3 تا 4 میلیون 
+                  3 تا 4 میلیون
                 </label>
                 <label
                   for="4-5"
@@ -396,7 +406,7 @@
                     name="price"
                     id="4-5"
                   />
-                  4 تا 5 میلیون 
+                  4 تا 5 میلیون
                 </label>
                 <label
                   for="5-6"
@@ -408,7 +418,7 @@
                     name="price"
                     id="5-6"
                   />
-                  5 تا 6 میلیون 
+                  5 تا 6 میلیون
                 </label>
               </div>
             </div>
@@ -483,7 +493,7 @@
         {id:6 , title : 'اپل واچ سری 2', price : '3,500,000 تومان'},
       ]
     }"
-          class="px-5 md:p-0 mb-8 grid gap-x-2 gap-y-8 sm:gap-x-4 md:gap-x-6 md:gap-y-10 grid-cols-2 lg:grid-cols-4"
+          class="px-5 md:p-0 mb-10 grid gap-x-2 gap-y-8 sm:gap-x-4 md:gap-x-6 md:gap-y-10 grid-cols-2 lg:grid-cols-4"
         >
           <!-- Single product -->
           <template x-for="product in products" :key="product.id">
@@ -580,7 +590,87 @@
         </div>
       </div>
     </div>
-
+    <!-- Bottom navigation -->
+    <div
+      class="fixed bottom-0 left-0 right-0 bg-primaryColor px-5 w-full shadow-lg flex items-center rounded-tl-2xl rounded-tr-2xl z-20"
+    >
+      <nav class="w-full">
+        <ul class="flex items-center justify-between w-full gap-x-2 font-bold">
+          <li class="w-full">
+            <a href="#" class="flex items-center py-4">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                >
+                  <path
+                    fill="#222F5D"
+                    d="M26.72 9.094 19.04 3.72c-2.093-1.466-5.307-1.386-7.32.174L5.04 9.107c-1.333 1.04-2.387 3.173-2.387 4.853v9.2c0 3.4 2.76 6.174 6.16 6.174h14.374c3.4 0 6.16-2.76 6.16-6.16v-9.04c0-1.8-1.16-4.014-2.627-5.04ZM17 24c0 .547-.453 1-1 1-.547 0-1-.453-1-1v-4c0-.546.453-1 1-1 .547 0 1 .454 1 1v4Z"
+                  /></svg
+              ></span>
+              <span>خانه</span>
+            </a>
+          </li>
+          <li class="w-full">
+            <a href="#" class="flex items-center py-4">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  height="34"
+                  fill="none"
+                >
+                  <path
+                    fill="#222F5D"
+                    d="M10.257 2.833H7.565c-3.102 0-4.732 1.63-4.732 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.692c3.088 0 4.717-1.629 4.717-4.717V7.55c.014-3.088-1.615-4.718-4.703-4.718ZM26.45 2.833h-2.692c-3.089 0-4.718 1.63-4.718 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.691c3.088 0 4.718-1.629 4.718-4.717V7.55c0-3.088-1.63-4.718-4.718-4.718ZM26.45 19.026h-2.692c-3.089 0-4.718 1.629-4.718 4.717v2.692c0 3.088 1.63 4.718 4.718 4.718h2.691c3.088 0 4.718-1.63 4.718-4.718v-2.692c0-3.088-1.63-4.717-4.718-4.717ZM10.257 19.026H7.565c-3.102 0-4.732 1.629-4.732 4.717v2.692c0 3.103 1.63 4.732 4.718 4.732h2.692c3.088 0 4.717-1.63 4.717-4.718v-2.692c.014-3.102-1.615-4.731-4.703-4.731Z"
+                  />
+                </svg>
+              </span>
+              <span>دسته‌بندی</span>
+            </a>
+          </li>
+          <li class="w-full">
+            <a href="#" class="flex items-center py-4">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  height="34"
+                  fill="none"
+                >
+                  <path
+                    fill="#222F5D"
+                    fill-opacity=".4"
+                    d="M28.277 12.693c-.95-1.048-2.38-1.657-4.364-1.87V9.747a6.9 6.9 0 0 0-2.266-5.114c-1.46-1.332-3.358-1.955-5.327-1.771-3.386.326-6.233 3.598-6.233 7.14v.821c-1.984.213-3.415.822-4.364 1.87-1.374 1.53-1.331 3.57-1.176 4.987l.992 7.89c.298 2.763 1.417 5.597 7.508 5.597h7.905c6.092 0 7.211-2.834 7.509-5.582l.992-7.92c.155-1.402.184-3.442-1.176-4.972ZM16.518 4.831c1.417-.128 2.763.312 3.811 1.26a4.925 4.925 0 0 1 1.615 3.656v.991h-9.888v-.736c0-2.522 2.082-4.944 4.462-5.171Zm-4.59 13.798h-.014a1.42 1.42 0 0 1-1.416-1.416 1.424 1.424 0 0 1 2.848 0 1.42 1.42 0 0 1-1.418 1.416Zm9.917 0h-.014a1.42 1.42 0 0 1-1.417-1.416 1.424 1.424 0 0 1 2.848 0 1.42 1.42 0 0 1-1.417 1.416Z"
+                  />
+                </svg>
+              </span>
+              <span>سبد‌خرید</span>
+            </a>
+          </li>
+          <li class="w-full">
+            <a href="#" class="flex items-center py-4">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="29"
+                  height="25"
+                  fill="none"
+                >
+                  <path
+                    fill="#222F5D"
+                    d="M20.834.333a7.702 7.702 0 0 0-6.156 3.09A7.701 7.701 0 0 0 8.522.332C4.278.333.833 3.8.833 8.067c0 1.644.267 3.178.712 4.578 2.177 6.91 8.933 11.066 12.266 12.2.467.155 1.245.155 1.711 0 3.334-1.134 10.09-5.267 12.267-12.2.467-1.423.711-2.934.711-4.578C28.522 3.8 25.078.333 20.834.333Z"
+                  />
+                </svg>
+              </span>
+              <span>علاقه‌مندی ها</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <script src="//unpkg.com/alpinejs" defer></script>
   </body>
 </html>
