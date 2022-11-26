@@ -24,11 +24,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: bold;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebboldfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebboldfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -38,11 +38,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 100;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebthinfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebthinfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebthinfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebthinfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebthinfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebthinfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -52,11 +52,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 300;
 
-  src: url('/public/assets/fonts/eot/iranyekanweblightfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanweblightfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanweblightfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanweblightfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanweblightfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanweblightfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -66,11 +66,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: normal;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebregularfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebregularfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebregularfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebregularfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -80,11 +80,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 500;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebmediumfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebmediumfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebmediumfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebmediumfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebmediumfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebmediumfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -94,11 +94,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 800;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebextraboldfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebextraboldfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebextraboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebextraboldfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebextraboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebextraboldfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -108,11 +108,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 850;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebblackfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebblackfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebblackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebblackfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebblackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebblackfanum.ttf') format('truetype');
 }
 
 @font-face {
@@ -122,11 +122,11 @@ This set of fonts are used in this project under the license: (.....)
 
   font-weight: 900;
 
-  src: url('/public/assets/fonts/eot/iranyekanwebextrablackfanum.eot');
+  src: url('/assets/fonts/eot/iranyekanwebextrablackfanum.eot');
 
-  src: url('/public/assets/fonts/eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('/public/assets/fonts/woff/iranyekanwebextrablackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('/public/assets/fonts/ttf/iranyekanwebextrablackfanum.ttf') format('truetype');
+  src: url('/assets/fonts/eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/woff/iranyekanwebextrablackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/ttf/iranyekanwebextrablackfanum.ttf') format('truetype');
 }
 
 /*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com*/
@@ -919,6 +919,10 @@ video {
   height: 1.75rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -969,6 +973,14 @@ video {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .max-w-xl {
@@ -1131,6 +1143,11 @@ video {
 .bg-green-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f4f4f4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 244 / var(--tw-bg-opacity));
 }
 
 .stroke-white {
@@ -1375,8 +1392,24 @@ video {
     grid-column: span 8 / span 8;
   }
 
+  .md\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:hidden {
@@ -1399,8 +1432,28 @@ video {
     width: 1.25rem;
   }
 
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:flex-auto {
+    flex: 1 1 auto;
+  }
+
   .md\:grid-rows-\[55px_minmax\(700px\2c _1fr\)\] {
     grid-template-rows: 55px minmax(700px, 1fr);
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-8 {
@@ -1416,8 +1469,17 @@ video {
     row-gap: 2.5rem;
   }
 
+  .md\:bg-primaryColor {
+    --tw-bg-opacity: 1;
+    background-color: rgb(253 253 253 / var(--tw-bg-opacity));
+  }
+
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
   }
 
   .md\:px-5 {
@@ -1425,9 +1487,32 @@ video {
     padding-right: 1.25rem;
   }
 
+  .md\:text-right {
+    text-align: right;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-slate-800 {
+    --tw-text-opacity: 1;
+    color: rgb(30 41 59 / var(--tw-text-opacity));
   }
 }
 
