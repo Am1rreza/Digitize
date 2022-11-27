@@ -173,7 +173,7 @@
                     alt="phone-icon"
                   />
                 </div>
-                <span class="text-slate-800">ساعت هوشمند</span>
+                <span class="text-slate-800">ساعت‌هوشمند</span>
               </div>
             </div>
           </div>
@@ -220,10 +220,10 @@
       </div>
       <!-- Products -->
       <div class="col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
-        <div class="md:flex md:bg-primaryColor rounded-lg md:p-4">
+        <div class="md:flex md:flex-col xl:flex-row md:bg-primaryColor rounded-lg md:p-4">
           <!-- Single product -->
           <div
-            class="flex flex-col items-center gap-y-6 md:flex-auto md:flex-row md:items-start"
+            class="flex flex-col items-center md:justify-around xl:justify-start gap-y-6 md:flex-auto lg:flex-row lg:items-start"
           >
             <div class="w-4/5 max-w-xs">
               <img
@@ -232,15 +232,15 @@
                 alt="iphone13-img"
               />
             </div>
-            <div class="w-full md:w-auto md:mr-5 md:mt-2">
+            <div class="w-full md:w-auto md:p-3">
               <div class="mb-8 text-center">
                 <h1
-                  class="font-bold text-lg md:text-start text-slate-800 mb-1 md:mb-2 md:text-xl"
+                  class="font-bold text-lg lg:text-start text-slate-800 mb-1 md:mb-2 md:text-xl"
                 >
                   گوشی آیفون‌13 - 128 گیگابایت
                 </h1>
                 <h2
-                  class="font-light text-gray-400 md:text-lg md:text-slate-800 md:text-right"
+                  class="font-light text-gray-400 md:text-lg md:text-slate-800 lg:text-right"
                 >
                   Apple IPhone 13 - 128GB
                 </h2>
@@ -252,7 +252,7 @@
                 <div x-data="{ color : 'red' }" class="flex items-center">
                   <div
                     @click="color = 'red'"
-                    class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-red-400 border-white bg-red-400 -ml-1.5"
+                    class="h-7 w-7 xl:h-8 xl:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-red-400 border-white bg-red-400 -ml-1.5"
                   >
                     <svg
                       x-show="color === 'red'"
@@ -261,7 +261,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-5 h-5 sm:h-6 sm:w-6 stroke-white"
+                      class="w-5 h-5 xl:h-6 xl:w-6 stroke-white"
                     >
                       <path
                         stroke-linecap="round"
@@ -272,7 +272,7 @@
                   </div>
                   <div
                     @click="color = 'blue'"
-                    class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-blue-400 border-white bg-blue-400 -ml-1.5"
+                    class="h-7 w-7 xl:h-8 xl:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-blue-400 border-white bg-blue-400 -ml-1.5"
                   >
                     <svg
                       x-show="color === 'blue'"
@@ -281,7 +281,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-5 h-5 sm:h-6 sm:w-6 stroke-white"
+                      class="w-5 h-5 xl:h-6 xl:w-6 stroke-white"
                     >
                       <path
                         stroke-linecap="round"
@@ -292,7 +292,7 @@
                   </div>
                   <div
                     @click="color = 'green'"
-                    class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-green-400 border-white bg-green-400"
+                    class="h-7 w-7 xl:h-8 xl:w-8 flex items-center justify-center rounded-full cursor-pointer border-2 ring-1 ring-green-400 border-white bg-green-400"
                   >
                     <svg
                       x-show="color === 'green'"
@@ -301,7 +301,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-5 h-5 sm:h-6 sm:w-6 stroke-white"
+                      class="w-5 h-5 xl:h-6 xl:w-6 stroke-white"
                     >
                       <path
                         stroke-linecap="round"
@@ -312,34 +312,9 @@
                   </div>
                 </div>
               </div>
-              <!-- Product features -->
-              <div class="hidden md:block">
-                <h2 class="text-lg text-slate-800 font-medium mb-4">ویژگی‌های کالا:</h2>
-                <div class="flex items-center mb-2">
-                  <div class="h-2 w-2 bg-orange-500 rounded-full"></div>
-                  <div class="mr-2 text-slate-800">
-                    <span>حافظه داخلی:</span>
-                    <span class="font-medium">128 گیگابایت</span>
-                  </div>
-                </div>
-                <div class="flex items-center mb-2">
-                  <div class="h-2 w-2 bg-orange-500 rounded-full"></div>
-                  <div class="mr-2 text-slate-800">
-                    <span>بازه‌ی اندازه صفحه‌نمایش:</span>
-                    <span class="font-medium">6 اینچ و بزرگتر</span>
-                  </div>
-                </div>
-                <div class="flex items-center">
-                  <div class="h-2 w-2 bg-orange-500 rounded-full"></div>
-                  <div class="mr-2 text-slate-800">
-                    <span>شبکه‌های ارتباطی:</span>
-                    <span class="font-medium">5G 4G 3G 2G</span>
-                  </div>
-                </div>
-              </div>
               <!-- Seller detail -->
               <div
-                class="text-slate-800 md:hidden text-sm flex flex-col items-center gap-y-4"
+                class="text-slate-800 md:hidden text-sm flex flex-col items-center gap-y-4 mb-6"
               >
                 <div class="flex items-center gap-x-4">
                   <div class="flex items-center">
@@ -385,6 +360,34 @@
                   <span class="font-light mr-2">انبار تهران</span>
                 </div>
               </div>
+              <!-- Product features -->
+              <div class="px-5 md:p-0">
+                <div class="text-slate-700 font-bold p-5 md:p-0 bg-primaryColor md:bg-transparent rounded-lg">
+                  <h2 class="text-lg font-medium mb-4">ویژگی‌های کالا</h2>
+                  <div class="flex items-center text-sm md:text-base mb-4 xl:mb-2">
+                    <div class="h-2 w-2 bg-orange-500 rounded-full p-1"></div>
+                    <div class="mr-2">
+                      <span class="font-light text-slate-600">حافظه داخلی:</span>
+                      <span>128 گیگابایت</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center text-sm md:text-base mb-4 xl:mb-2">
+                    <div class="h-2 w-2 bg-orange-500 rounded-full p-1"></div>
+                    <div class="mr-2">
+                      <span class="font-light text-slate-600">بازه‌ی اندازه صفحه‌نمایش:</span>
+                      <span>6 اینچ و بزرگتر</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center text-sm md:text-base">
+                    <div class="h-2 w-2 bg-orange-500 rounded-full p-1"></div>
+                    <div class="mr-2">
+                      <span class="font-light text-slate-600">شبکه‌های ارتباطی:</span>
+                      <span>5G 4G 3G 2G</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
           <!-- Seller detail -->
