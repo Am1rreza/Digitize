@@ -221,11 +221,11 @@
       <!-- Products -->
       <div class="col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10">
         <div
-          class="md:flex md:flex-col xl:flex-row md:mb-8 md:bg-primaryColor rounded-lg md:p-4"
+          class="md:flex md:flex-col xl:flex-row md:bg-primaryColor rounded-tr-lg rounded-tl-lg md:p-5"
         >
           <!-- Single product -->
           <div
-            class="flex flex-col items-center md:justify-around xl:justify-start gap-y-6 md:flex-auto lg:flex-row lg:items-start md:mb-8"
+            class="flex flex-col items-center md:justify-around xl:justify-start gap-y-6 md:flex-auto lg:flex-row lg:items-start"
           >
             <div class="w-4/5 max-w-xs">
               <img
@@ -233,7 +233,7 @@
                 src="assets/images/iphone13.png"
                 alt="iphone13-img"
               />
-              <div class="hidden lg:flex items-center justify-evenly">
+              <div class="hidden lg:flex items-center justify-evenly lg:mb-10 xl:mb-0 -mt-3">
                 <img
                   class="flex items-stretch w-20 object-cover h-auto rounded-xl border border-gray-300 cursor-pointer p-2"
                   src="assets/images/iphone13-2-removebg-preview.png"
@@ -384,7 +384,7 @@
                 </div>
               </div>
               <!-- Product features -->
-              <div class="px-5 md:p-0 mb-24 md:mb-0">
+              <div class="px-5 md:p-0 mb-8">
                 <div
                   class="text-slate-700 font-bold p-5 md:p-0 bg-primaryColor md:bg-transparent rounded-lg"
                 >
@@ -488,6 +488,95 @@
             </div>
           </div>
         </div>
+        <!-- Products information -->
+        <div
+          x-data="{isShow : false}"
+          class="px-5 md:p-0 col-span-12 md:col-start-5 md:col-end-13 lg:col-start-4 xl:col-start-3 mb-24 md:mb-8"
+        >
+          <div
+            class="p-5 w-full text-slate-800 bg-primaryColor rounded-lg md:rounded-none md:rounded-bl-lg md:rounded-br-lg"
+          >
+            <h2 class="text-lg font-medium mb-4 md:text-xl md:font-bold">نقد و بررسی این محصول</h2>
+            <p class="md:mb-8 mb-4">
+              آیفون 13 از سری پرچمداران 2021 اپل با قابلیت های فراوان است که در
+              تاریخ 14 ستامبر به صورت رسمی رونمایی شد و پس از مدتی در تاریخ 24
+              ستامبر به بازار های جهانی راه یافت و توانست بسیاری از طرفداران
+              برند اپل را به خرید متقاعد سازد.طراحی IPhone 13 مشابه سری پیشین با
+              تغییراتی جزیی است که در رنگ های زیبای آبی, مشکی گرافیت, طلایی و
+              نقره‌ای عرضه شده است.
+            </p>
+            <div x-show="isShow">
+              <h3 class="text-lg font-medium mb-2">طراحی</h3>
+              <p class="mb-8">
+                اپل چندان تمایلی به تغییر طراحی‌های موفق خود ندارد و ترجیح
+                می‌دهد تا زبان طراحی موفق و جذاب خود را حفظ کند. آیفون 13 نیز از
+                طراحی مشابهی با نسل قبلی خود بهره برده است. در نمای رو‌به‌رویی
+                همان ناچ و بریدگی آشنای سری‌های قبلی را می‌بینیم که این بار عرض
+                کمتری به نسبت ناچ صفحه‌نمایش آیفون 12 دارد. در نمای پشتی هم شاهد
+                قرار گیری دو سنسور دوربین می‌باشیم که بر‌خلاف مدل آیفون 12، این
+                بار دو سنسور دوربین با چیدمانی ضربدری با فلش LED در بریدگی مربعی
+                شکل قرار گرفته‌اند. این در حالی است که دو سنسور دوربین قسمت پشتی
+                آیفون 12 با چیدمانی ستونی شکل در کنار یکدیگر قرار گرفته‌اند.
+              </p>
+              <div class="hidden justify-center lg:flex">
+                <img class="h-auto w-3/5 mb-10" src="assets/images/iphone13-5-transformed.png" alt="iphone13-img">
+              </div>
+              <h3 class="text-lg font-medium mb-2">صفحه‌نمایش</h3>
+              <p class="mb-8">
+                در این بخش نیز باید گفت، آیفون 13 از صفحه‌نمایشی مشابه با آیفون
+                12 بهره برده است. صفحه نمایش 6.1 اینچ با رزولوشن 1170×2532 پیکسل
+                از نوع اولد (OLED) با فناوری Super Retina XDR، برای این
+                گوشی‌هوشمند قدرتمند در نظر گرفته شده است. تراکم پیکسلی 460ppi در
+                هر اینچ سبب شده تا این صفحه نمایش توانایی ارائه کیفیت تصویر
+                بسیار بالایی را داشته باشد. محافظ صفحه Scratch-resistant ceramic
+                glass می‌تواند به‌خوبی از صفحه‌نمایش این گوشی‌هوشمند در برای
+                ضربات و افتادن‌های احتمالی هم محافظت کند.
+              </p>
+              <div class="hidden justify-center lg:flex">
+                <img class="h-auto w-3/5 mb-10" src="assets/images/iphone13-6-removebg.png" alt="iphone13-img">
+              </div>
+              <h3 class="text-lg font-medium mb-2">دوربین</h3>
+              <p class="mb-8">
+                شاید در نگاه اول و بر روی کاغذ، سنسور‌های دوربین در نظر گرفته
+                شده برای آیفون13 چندان تفاوتی با سنسور‌های دوربین آیفون 12
+                نداشته باشند، اما بدون شک آیفون 13 می‌تواند در این بخش عملکرد
+                بهتری به نسبت مدل آیفون 12 داشته باشد. شاید از خودتان بپرسید که
+                چرا؟ در ادامه به شما خواهیم گفت. در ابتدا نگاهی به مشخصات
+                سنسور‌های دوربین در نظر گرفته شده برای این گوشی‌هوشمند خواهیم
+                داشت. یک سنسور دوربین اصلی با رزولوشن 12 مگاپیکسل، گشودگی دریچه
+                دیافراگم f/1.6، فاصله کانونی 26 میلی متر از نوع عریض به‌همراه
+                سنسور دوربین از نوع فوق عریض (ultra wide) با رزولوشن 12
+                مگاپیکسل، گشودگی دریچه دیافراگم f/2.4، زاویه دید 120 درجه و
+                فاصله کانونی 13 میلی‌متر، سنسور‌های دوربین دوگانه آیفون 13 را
+                تشکیل می‌دهند.
+              </p>
+              <div class="hidden justify-center lg:flex">
+                <img class="h-auto w-2/5 mb-10" src="assets/images/iphone13-7.png" alt="iphone13-img">
+              </div>
+              <h3 class="text-lg font-medium mb-2">پردازنده</h3>
+              <p class="mb-8">
+                باید قبول کنیم که تا به امروز، پردازنده‌های قدرتمند گوشی‌های
+                هوشمند اپل در کنار سیستم عامل بی‌نظیر iOS توانسته اند عملکرد
+                بسیار شگفت‌انگیزی را به نمایش بگذارند. این بار هم آیفون 13
+                همانند برادران بزرگترش، یعنی آیفون 13 پرو وآیفون 13 پرو مکس، به
+                قدرتمند‌ترین پردازنده این شرکت یعنیُ A15 بایونیک مجهز شده است.
+                پردازنده ای با معماری 5 نانومتری و متشکل از 6 هسته (2 هسته
+                قدرتمند‌تر به‌همراه 4 هسته با کارایی معمولی و صرفه انرژی کمتر).
+                برای GPU یا همان پردازنده گرافیکی نیست، پردازنده اختصاصی 4
+                هسته‌ای در نظر گرفته شده است.
+              </p>
+              <div class="hidden justify-center lg:flex">
+                <img class="h-auto w-1/3 mb-10" src="assets/images/A15-Bionic-transformed.png" alt="iphone13-img">
+              </div>
+            </div>
+            <button
+              @click="isShow = !isShow"
+              class="text-orange-500 font-medium text-left w-full block"
+            >
+              ادامه مطلب
+            </button>
+          </div>
+        </div>
       </div>
       <!-- Fixed add to card button -->
       <div
@@ -498,7 +587,9 @@
         >
           اضافه به سبد‌خرید
         </button>
-        <div class="text-slate-800 font-medium flex flex-col items-start sm:flex-row sm:items-center sm:gap-x-1 sm:text-lg">
+        <div
+          class="text-slate-800 font-medium flex flex-col items-start sm:flex-row sm:items-center sm:gap-x-1 sm:text-lg"
+        >
           <span>32,750,000</span>
           <span>تومان</span>
         </div>
