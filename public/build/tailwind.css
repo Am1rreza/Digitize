@@ -907,10 +907,6 @@ video {
   height: 1.5rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -957,10 +953,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-12 {
