@@ -25,8 +25,6 @@
         />
       </div>
     </div>
-
-    <a class="opacity-0 w-full" href="./singleProduct.html">go to singleProduct.html</a>
     <!-- Filter & Sort section -->
     <div
       class="flex container mx-auto 2xl:max-w-screen-2xl md:hidden items-center justify-between mb-9 px-5 gap-x-2"
@@ -428,7 +426,7 @@
           </div>
         </div>
         <div>
-          <img src="assets/images/watchAd.png" alt="watchAd-img">
+          <img src="assets/images/watchAd.png" alt="watchAd-img" />
         </div>
       </div>
       <!-- Sort section -->
@@ -601,8 +599,15 @@
       class="shadow-[0_-4px_8px_0_rgba(0,0,0,0.15)] fixed md:hidden bottom-0 left-0 right-0 bg-primaryColor px-5 w-full flex items-center justify-center rounded-tl-2xl rounded-tr-2xl z-20"
     >
       <nav class="w-full">
-        <ul x-data="{activeTab : 1 , activeClass : '!text-[#222f5d]'}" class="flex items-center justify-center w-full gap-x-2 font-bold">
-          <li @click="activeTab = 1" :class="activeTab === 1 ? activeClass : '' " class="w-full flex-auto text-sm text-gray-400">
+        <ul
+          x-data="{activeTab : 1 , activeClass : '!text-[#222f5d]'}"
+          class="flex items-center justify-center w-full gap-x-2 font-bold"
+        >
+          <li
+            @click="activeTab = 1"
+            :class="activeTab === 1 ? activeClass : '' "
+            class="w-full flex-auto text-sm text-gray-400"
+          >
             <a href="#" class="w-full flex justify-center items-center py-4">
               <span
                 ><svg
@@ -618,7 +623,11 @@
               <span class="mr-1" x-show="activeTab === 1">خانه</span>
             </a>
           </li>
-          <li @click="activeTab = 2" :class="activeTab === 2 ? activeClass : '' " class="w-full flex-auto text-sm text-gray-400">
+          <li
+            @click="activeTab = 2"
+            :class="activeTab === 2 ? activeClass : '' "
+            class="w-full flex-auto text-sm text-gray-400"
+          >
             <a href="#" class="w-full flex justify-center items-center py-4">
               <span>
                 <svg
@@ -635,8 +644,12 @@
               <span class="mr-1" x-show="activeTab === 2">دسته‌بندی</span>
             </a>
           </li>
-          <li @click="activeTab = 3" :class="activeTab === 3 ? activeClass : '' " class="w-full flex-auto text-sm text-gray-400">
-            <a href="#" class="w-full flex justify-center items-center py-4">
+          <li
+            @click="activeTab = 3"
+            :class="activeTab === 3 ? activeClass : '' "
+            class="w-full flex-auto text-sm text-gray-400"
+          >
+            <a href="./singleProduct.html" class="w-full flex justify-center items-center py-4">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -652,7 +665,11 @@
               <span class="mr-1" x-show="activeTab === 3">سبد‌خرید</span>
             </a>
           </li>
-          <li @click="activeTab = 4" :class="activeTab === 4 ? activeClass : '' " class="w-full flex-auto text-sm text-gray-400">
+          <li
+            @click="activeTab = 4"
+            :class="activeTab === 4 ? activeClass : '' "
+            class="w-full flex-auto text-sm text-gray-400"
+          >
             <a href="#" class="w-full flex justify-center items-center py-4">
               <span>
                 <svg
@@ -672,6 +689,5 @@
         </ul>
       </nav>
     </div>
-    
   </body>
 </html>
